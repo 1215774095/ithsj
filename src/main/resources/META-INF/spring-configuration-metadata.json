@@ -1,0 +1,41 @@
+{
+  "groups": [
+    {
+      "name": "tools.ip",
+      "type": "cn.ithsj.properties.IpProperties",
+      "sourceType": "cn.ithsj.properties.IpProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "tools.ip.cycle",
+      "type": "java.lang.Long",
+      "sourceType": "cn.ithsj.properties.IpProperties",
+      "defaultValue": 10
+    },
+    {
+      "name": "tools.ip.cycle-reset",
+      "type": "java.lang.Boolean",
+      "sourceType": "cn.ithsj.properties.IpProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "tools.ip.model",
+      "type": "java.lang.String",
+      "sourceType": "cn.ithsj.properties.IpProperties"
+    }
+  ],
+  "hints": [
+    {"name": "tools.ip.model",
+    "values": [
+      {
+        "value": "detail",
+        "description": "明细模式."
+      },
+      {
+        "value": "simple",
+        "description": "极简模式."
+      }
+    ]
+    }]
+}
